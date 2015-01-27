@@ -10,13 +10,30 @@
  */
 public class Customer implements Runnable {
     private String customerName;
+    private Leaser leaser;
 
-    public Customer(final String customerName) {
+    public Customer(final String customerName, Leaser leaser) {
         this.customerName = customerName;
+        this.leaser = leaser;
+    }
+
+    public String getCustomerName() {
+        return customerName;
     }
 
     @Override
     public void run() {
+        while (true) {
+            try {
+                Thread.sleep(1000 + ((int) (Math.random() * 9000)));
+                leaser.lease(this);
+                Thread.sleep(1000 + ((int) (Math.random() * 2000)));
+                leaser.endLease(this);
+            } catch (InterruptedException e) {
+                System.err.println("Thread " + customerName + " interrupted!");
+            }
 
+
+        }
     }
 }
