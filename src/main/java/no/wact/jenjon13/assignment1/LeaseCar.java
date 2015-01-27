@@ -1,10 +1,17 @@
+package no.wact.jenjon13.assignment1;
+
 public class LeaseCar {
     private String registrationNumber;
     private boolean leased;
     private String leasedBy;
+    private int leasedTimes = 0;
 
     public LeaseCar(final String registrationNumber) {
         this.registrationNumber = registrationNumber;
+    }
+
+    public int getLeasedTimes() {
+        return leasedTimes;
     }
 
     public String getLeasedBy() {
@@ -20,6 +27,10 @@ public class LeaseCar {
     }
 
     public void setLeased(final boolean leased) {
+        if (!this.leased && leased) {
+            this.leasedTimes++;
+        }
+
         this.leased = leased;
     }
 

@@ -1,3 +1,5 @@
+package no.wact.jenjon13.assignment1;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.locks.Condition;
@@ -13,7 +15,7 @@ public class Leaser {
     private List<LeaseCar> cars;
 
     public Leaser(final List<LeaseCar> cars) {
-        StringBuilder license = new StringBuilder(LICENSEPLATE_LENGTH);
+        final StringBuilder license = new StringBuilder(LICENSEPLATE_LENGTH);
         for (int i = LICENSEPLATE_INIT_NUM; i < LICENSEPLATE_INIT_NUM + LEASECAR_AMOUNT; i++) {
             license.append(LICENSEPLATE_PREFIX);
             for (int j = 0; j < LICENSEPLATE_LENGTH; j++) {
@@ -30,7 +32,10 @@ public class Leaser {
     public void lease(final Customer customer) {
         carsLock.lock();
         try {
-            final Optional<LeaseCar> availableCar = cars.parallelStream().filter(car -> !car.isLeased()).findFirst();
+            final Optional<LeaseCar> availableCar = cars
+                    .parallelStream()
+                    .filter(car -> !car.isLeased())
+                    .findFirst();
 
             try {
                 if (!availableCar.isPresent()) {
@@ -39,7 +44,10 @@ public class Leaser {
                     return;
                 }
 
-                System.out.println(availableCar.get().getRegistrationNumber() + " locked by " + customer.getCustomerName());
+                System.out.printf("%s (%d) locked by %s%n",
+                        availableCar.get().getRegistrationNumber(),
+                        availableCar.get().getLeasedTimes(),
+                        customer.getCustomerName());
                 availableCar.get().setLeased(true);
                 availableCar.get().setLeasedBy(customer.getCustomerName());
             } catch (InterruptedException e) {
