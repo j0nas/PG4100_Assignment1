@@ -5,6 +5,8 @@ import java.util.concurrent.Executors;
 
 public class RentalCarApp {
     public static List<LeaseCar> cars = new ArrayList<>();
+
+    // TODO: get customers from scanner
     private static int CUSTOMER_COUNT = 10;
     private static int CUSTOMER_MAX_AMOUNT = 10;
     private static int CUSTOMER_MIX_AMOUNT = 5;
@@ -21,12 +23,17 @@ public class RentalCarApp {
     }
 
     private static void initCustomers() {
-        final ExecutorService threadPool = Executors.newFixedThreadPool(10);
-        for (int i = 0; i < CUSTOMER_COUNT; i++) {
-            threadPool.execute(new Customer(String.valueOf(i), leaser));
-            // TODO: Get customers name from Scanner
+        String[] customerNames = {"Per", "Lars", "Bente", "Erik", "Marit", "Kim", "Trude", "Hans", "Inger", "Jonas"};
+        final ExecutorService threadPool = Executors.newFixedThreadPool(customerNames.length);
+
+        for (int i = 0; i < customerNames.length; i++) {
+            threadPool.execute(new Customer(customerNames[i], leaser));
         }
 
         threadPool.shutdown();
     }
 }
+
+// TODO: UNIT TESTS!
+// TODO: DOCUMENTATION - METHOD HEADERS
+// TODO: LOOK AT ConsuperProducer.java
