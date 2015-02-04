@@ -1,6 +1,6 @@
 package no.wact.jenjon13.assignment1.gui;
 
-import no.wact.jenjon13.assignment1.car.Car;
+import no.wact.jenjon13.assignment1.car.LeaseCar;
 
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
@@ -9,9 +9,9 @@ import java.util.*;
 import java.util.List;
 
 public class View implements Observer {
-    private final Map<Car, JTextArea> objectsTexts;
+    private final Map<LeaseCar, JTextArea> objectsTexts;
 
-    public View(final String title, List<Car> cars) {
+    public View(final String title, List<LeaseCar> cars) {
         final JFrame jFrame = new JFrame(title);
         jFrame.setLayout(new GridLayout(cars.size(), 1));
 
@@ -37,7 +37,7 @@ public class View implements Observer {
         final JTextArea carText = objectsTexts.get(arg);
 
         final StringBuilder builder = new StringBuilder();
-        final Car car = (Car) arg;
+        final LeaseCar car = (LeaseCar) arg;
         builder.append(car.getRegistrationNumber() + "\n");
         builder.append("Leased by: " + car.getLeasedBy() + "\n");
         builder.append("Times leased: " + String.valueOf(car.getLeasedTimes()));

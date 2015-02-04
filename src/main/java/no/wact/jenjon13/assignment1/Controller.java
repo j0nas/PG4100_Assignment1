@@ -1,11 +1,9 @@
 package no.wact.jenjon13.assignment1;
 
-import no.wact.jenjon13.assignment1.car.Car;
 import no.wact.jenjon13.assignment1.customer.Customer;
 import no.wact.jenjon13.assignment1.customer.CustomerFactory;
 import no.wact.jenjon13.assignment1.gui.View;
 import no.wact.jenjon13.assignment1.leaser.CarLeaser;
-import no.wact.jenjon13.assignment1.leaser.LeaserFactory;
 import no.wact.jenjon13.assignment1.util.ExternalResources;
 
 import java.util.ArrayList;
@@ -19,17 +17,14 @@ public class Controller implements Observer {
     private final int CUSTOMER_MIN_AMOUNT = 5;
 
     private final List<String> customerNames;
-    private final List<Car> cars;
-
     private final ExecutorService threadPool;
     private CarLeaser leaser;
     private View view;
     private boolean startedRunning;
 
     public Controller() {
-        cars = new ArrayList<>();
-        leaser = LeaserFactory.newLeaser(cars);
-        view = new View("Client GUI", cars);
+        leaser = CarLeaser.getInstance();
+        view = new View("Client GUI", leaser.getCars());
         leaser.addObserver(view);
 
         threadPool = Executors.newCachedThreadPool();
