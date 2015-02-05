@@ -33,11 +33,7 @@ public class CarLeaser extends Observable {
      * @return Returns the singleton instance. Instantiates it if not already instantiated.
      */
     public static CarLeaser getInstance() {
-        if (instance == null) {
-            instance = new CarLeaser();
-        }
-
-        return instance;
+        return instance = (instance != null) ? instance : new CarLeaser();
     }
 
     /**
