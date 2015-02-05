@@ -17,11 +17,11 @@ import java.util.concurrent.Executors;
  * Responsible for managing the View and Model instances.
  */
 public class Controller implements Observer {
-    private static final int CUSTOMER_MIN_AMOUNT = 5;
+    private final int CUSTOMER_MIN_AMOUNT = 5;
     private final ExecutorService threadPool = Executors.newCachedThreadPool();
-    private View view = new View("Client GUI", CarLeaser.getInstance().getCars());
+    private final View view = new View("Client GUI", CarLeaser.getInstance().getCars());
+    private final Queue<Customer> customers = new PriorityQueue<>();
     private boolean startedRunning;
-    private Queue<Customer> customers = new PriorityQueue<>();
 
     /**
      * Constructor for the class.
