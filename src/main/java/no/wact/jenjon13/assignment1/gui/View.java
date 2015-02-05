@@ -32,6 +32,7 @@ public class View extends Observable implements Observer {
 
             objectsTexts.put(cars.get(i), textAreas[i]);
         }
+
         jFrame.add(leaseCarContain);
 
         final JPanel newCustomerCompoentsContain = new JPanel(new GridLayout(1, 2));
@@ -58,7 +59,6 @@ public class View extends Observable implements Observer {
             public void keyReleased(final KeyEvent e) {
             }
         });
-
         newCustomerCompoentsContain.add(addCustomerTxt);
 
 

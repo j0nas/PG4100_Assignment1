@@ -5,70 +5,76 @@ import no.wact.jenjon13.assignment1.customer.CustomerFactory;
 import no.wact.jenjon13.assignment1.gui.View;
 import no.wact.jenjon13.assignment1.leaser.CarLeaser;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
+import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * Controller of the application.
+ * Responsible for managing the View and Model instances.
+ */
 public class Controller implements Observer {
-    private final int CUSTOMER_MIN_AMOUNT = 5;
-    private final int CUSTOMER_MAX_AMOUNT = 10;
-    private final List<String> customerNames;
     private final ExecutorService threadPool;
-    private int customerCount = 0;
     private CarLeaser leaser;
     private View view;
     private boolean startedRunning;
 
+    /**
+     * Constructor for the class.
+     */
     public Controller() {
         leaser = CarLeaser.getInstance();
         view = new View("Client GUI", leaser.getCars());
         leaser.addObserver(view);
-
         threadPool = Executors.newCachedThreadPool();
-        customerNames = new ArrayList<>();
-
-//        final ExternalResources resources = new ExternalResources();
-//        resources.addObserver(this);
-//        resources.notifyCustomerNames();
         view.addObserver(this);
     }
 
+    /**
+     * Main method for the application. Execution flow starts here.
+     * @param args Not used.
+     */
     public static void main(String[] args) {
         new Controller();
     }
 
+    private Queue<Customer> customers = new PriorityQueue<>();
+    private static final int CUSTOMER_MIN_AMOUNT = 5;
+
+    /**
+     * Gets called when the instance that this class observes notifies observers of updates.
+     * This controller observes updates that occur in the View.
+     * Provides a more loosely coupled attachement to the View.
+     * Recieves user input from the View, which are interpreted as CarCustomer names.
+     * CarCustomer instances are created based on this recieved user input.
+     * @param o The Observable that dispatched the update call.
+     * @param arg The argument that the Observable object passed in the update dispatcher method.
+     */
     @Override
     public void update(final Observable o, final Object arg) {
-        if (customerCount < CUSTOMER_MAX_AMOUNT) {
-            customerNames.add(arg.toString());
-            System.out.println(arg + " added.");
+        final Customer customer = CustomerFactory.newCustomer(arg.toString(), leaser);
+        if (customer == null) {
+            System.out.println("Maximum amount of customers added. " +
+                    "Shutting down threadpool to restrict further access.");
+            threadPool.shutdown();
+            view.deleteObserver(this);
+            return;
         }
 
-        if (!startedRunning && (customerNames.size() < CUSTOMER_MIN_AMOUNT)) {
-            System.out.println("Add " + (CUSTOMER_MIN_AMOUNT - customerNames.size()) + " more names to start.");
+        customers.add(customer);
+        System.out.println(customer.getCustomerName() + " added.");
+
+        if (!startedRunning && (customers.size() < CUSTOMER_MIN_AMOUNT)) {
+            System.out.println("Add " + (CUSTOMER_MIN_AMOUNT - customers.size()) + " more names to start.");
         } else {
             if (!startedRunning) {
                 System.out.println("Started!");
                 startedRunning = true;
             }
 
-            while (!customerNames.isEmpty()) {
-                final int index = customerNames.size() - 1;
-                final String remove = customerNames.remove(index);
-                final Customer command = CustomerFactory.newCustomer(remove, leaser);
-                threadPool.execute(command);
-                customerCount++;
-
-                if (customerCount >= CUSTOMER_MAX_AMOUNT) {
-                    System.out.println("Maximum amount of customers added. " +
-                            "Shutting down threadpool to restrict further access.");
-                    threadPool.shutdown();
-                }
+            while (!customers.isEmpty()) {
+                threadPool.execute(customers.poll());
             }
-
         }
     }
 }
@@ -76,5 +82,3 @@ public class Controller implements Observer {
 // TODO: UNIT TESTS!
 // TODO: DOCUMENTATION - METHOD HEADERS
 // TODO: LOOK AT ConsuperProducer.java
-// TODO: GUI INTERFACE YUUUSSS
-// TODO: weignting, cost, ect
