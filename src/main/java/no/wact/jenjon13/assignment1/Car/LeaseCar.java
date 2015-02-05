@@ -1,5 +1,7 @@
 package no.wact.jenjon13.assignment1.car;
 
+import no.wact.jenjon13.assignment1.customer.Customer;
+
 /**
  * Value object representing a resource held by CarLeaser.
  * Acquired by CarCustomer instances through CarLeaser.
@@ -7,7 +9,7 @@ package no.wact.jenjon13.assignment1.car;
 public class LeaseCar {
     private String registrationNumber;
     private boolean leased;
-    private String leasedBy;
+    private Customer leasedBy;
     private int leasedTimes = 0;
 
     /**
@@ -25,11 +27,11 @@ public class LeaseCar {
         return leasedTimes;
     }
 
-    public String getLeasedBy() {
+    public Customer getLeasedBy() {
         return leasedBy;
     }
 
-    public void setLeasedBy(final String leasedBy) {
+    public void setLeasedBy(final Customer leasedBy) {
         this.leasedBy = leasedBy;
     }
 

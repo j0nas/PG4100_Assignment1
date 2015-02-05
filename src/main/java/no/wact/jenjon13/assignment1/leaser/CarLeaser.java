@@ -79,7 +79,7 @@ public class CarLeaser extends Observable {
 
             final LeaseCar car = availableCar.get();
             car.setLeased(true);
-            car.setLeasedBy(customer.getCustomerName());
+            car.setLeasedBy(customer);
             setChanged();
             notifyObservers(car);
         } finally {
@@ -96,13 +96,13 @@ public class CarLeaser extends Observable {
         carsLock.lock();
         try {
             final Optional<LeaseCar> leasedCar = cars.parallelStream()
-                    .filter(car -> car.isLeased() && car.getLeasedBy().equals(customer.getCustomerName()))
+                    .filter(car -> car.isLeased() && car.getLeasedBy().equals(customer))
                     .findAny();
 
             if (leasedCar.isPresent()) {
                 final LeaseCar car = leasedCar.get();
                 car.setLeased(false);
-                car.setLeasedBy("");
+                car.setLeasedBy(null);
                 setChanged();
                 notifyObservers(car);
 

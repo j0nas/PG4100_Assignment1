@@ -101,7 +101,7 @@ public class View extends Observable implements Observer {
         final StringBuilder builder = new StringBuilder();
         final LeaseCar car = (LeaseCar) arg;
         builder.append(car.getRegistrationNumber() + "\n");
-        builder.append("Leased by: " + car.getLeasedBy() + "\n");
+        builder.append("Leased by: " + (car.getLeasedBy() != null ? car.getLeasedBy().getCustomerName() : "") + "\n");
         builder.append("Times leased: " + String.valueOf(car.getLeasedTimes()));
         carText.setText(builder.toString());
     }
