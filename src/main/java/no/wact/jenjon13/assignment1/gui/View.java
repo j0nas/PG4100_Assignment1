@@ -12,14 +12,22 @@ import java.awt.event.KeyListener;
 import java.util.*;
 import java.util.List;
 
+/**
+ * View class representing user GUI/presentation layer.
+ */
 public class View extends Observable implements Observer {
     private final Map<LeaseCar, JTextArea> objectsTexts;
 
+    /**
+     * Constructor method, initializes the GUI.
+     *
+     * @param title Title of the GUI window frame.
+     * @param cars  A list of ListCars. Their respective attributes will be presented to the user.
+     */
     public View(final String title, List<LeaseCar> cars) {
         final JFrame jFrame = new JFrame(title);
-        final JPanel leaseCarContain = new JPanel(new GridLayout());
-
         jFrame.setLayout(new GridLayout(2, 2));
+        final JPanel leaseCarContain = new JPanel(new GridLayout());
 
         objectsTexts = new HashMap<>(cars.size());
         final JTextArea[] textAreas = new JTextArea[cars.size()];
@@ -47,15 +55,18 @@ public class View extends Observable implements Observer {
         };
 
         addCustomerTxt.addKeyListener(new KeyListener() {
+            @Override
             public void keyTyped(final KeyEvent e) {
             }
 
+            @Override
             public void keyPressed(final KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     actionListener.actionPerformed(null);
                 }
             }
 
+            @Override
             public void keyReleased(final KeyEvent e) {
             }
         });
@@ -73,6 +84,16 @@ public class View extends Observable implements Observer {
         jFrame.setVisible(true);
     }
 
+    /**
+     * Gets called when the instance that this class observes notifies observers of updates.
+     * This view observes updates that occur in the model, and is set as such by the controller.
+     * Provides a more loosely coupled attachement to the model.
+     * Recieves updates from the model, which this class reflects in the presentation.
+     *
+     * @param o   The Observable that dispatched the update call.
+     * @param arg The argument that the Observable object passed in the update dispatcher method.
+     * @see no.wact.jenjon13.assignment1.Controller#update
+     */
     @Override
     public void update(final Observable o, final Object arg) {
         final JTextArea carText = objectsTexts.get(arg);
@@ -82,7 +103,6 @@ public class View extends Observable implements Observer {
         builder.append(car.getRegistrationNumber() + "\n");
         builder.append("Leased by: " + car.getLeasedBy() + "\n");
         builder.append("Times leased: " + String.valueOf(car.getLeasedTimes()));
-
         carText.setText(builder.toString());
     }
 }

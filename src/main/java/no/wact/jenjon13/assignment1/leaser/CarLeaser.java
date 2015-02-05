@@ -11,7 +11,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Singleton class responsible for leasing out LeaseCar objects to CarCustomer objects.
+ * Singleton class responsible for assigning LeaseCar objects to CarCustomer objects.
  */
 public class CarLeaser extends Observable {
     private static final int LEASECAR_AMOUNT = 5;
@@ -21,7 +21,7 @@ public class CarLeaser extends Observable {
     private List<LeaseCar> cars;
 
     /**
-     * Nonparametric private constructor for the class.
+     * Constructor for the class.
      */
     private CarLeaser() {
         cars = CarFactory.newCars(LEASECAR_AMOUNT);
@@ -29,6 +29,7 @@ public class CarLeaser extends Observable {
 
     /**
      * Getter for the instance of this singleton class.
+     *
      * @return Returns the singleton instance. Instantiates it if not already instantiated.
      */
     public static CarLeaser getInstance() {
@@ -41,6 +42,7 @@ public class CarLeaser extends Observable {
 
     /**
      * Getter for the class' cars list.
+     *
      * @return Returns the List of LeaseCar instances.
      */
     public List<LeaseCar> getCars() {
@@ -52,6 +54,7 @@ public class CarLeaser extends Observable {
      * If no available LeaseCar instances are found, block and await one through lock Condition instance.
      * Notifies listening Observer instances of success when binding is initiated.
      * Thredsafe by utilizing a ReentrantLock instance.
+     *
      * @param customer The Customer instance to which the LeaseCar instance is to be bound.
      * @see no.wact.jenjon13.assignment1.leaser.CarLeaser#endLease
      */
@@ -86,6 +89,7 @@ public class CarLeaser extends Observable {
 
     /**
      * Reverses the process of the lease method.
+     *
      * @see no.wact.jenjon13.assignment1.leaser.CarLeaser#lease
      */
     public void endLease(final Customer customer) {
