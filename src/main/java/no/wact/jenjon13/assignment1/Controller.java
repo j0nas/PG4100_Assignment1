@@ -16,7 +16,7 @@ import java.util.concurrent.Executors;
  * Controller of the application.
  * Responsible for managing the View and Model instances.
  */
-public class Controller implements Observer {
+public final class Controller implements Observer {
     private final int CUSTOMER_MIN_AMOUNT = 5;
     private final ExecutorService threadPool = Executors.newCachedThreadPool();
     private final View view = new View("Client GUI", CarLeaser.getInstance().getCars());
@@ -61,7 +61,7 @@ public class Controller implements Observer {
             return;
         }
 
-        System.out.println(customer.getCustomerName() + " added: " + customers.add(customer));
+        System.out.println(customer.getName() + " added: " + customers.add(customer));
         if (!startedRunning && (customers.size() < CUSTOMER_MIN_AMOUNT)) {
             System.out.println("Add " + (CUSTOMER_MIN_AMOUNT - customers.size()) + " more names to start.");
         } else {
@@ -76,6 +76,3 @@ public class Controller implements Observer {
         }
     }
 }
-
-// TODO: UNIT TESTS!
-// TODO: LOOK AT ConsuperProducer.java

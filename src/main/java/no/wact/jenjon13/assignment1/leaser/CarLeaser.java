@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Singleton class responsible for assigning LeaseCar objects to CarCustomer objects.
  */
-public class CarLeaser extends Observable {
+public final class CarLeaser extends Observable {
     private static final int LEASECAR_AMOUNT = 5;
     private static CarLeaser instance;
     private final ReentrantLock carsLock = new ReentrantLock(true);

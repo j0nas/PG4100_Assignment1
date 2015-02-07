@@ -22,7 +22,7 @@ public final class CarCustomer extends Customer {
     }
 
     /**
-     * Defining the lifecycle of the Runnable instance.
+     * Defining the lifecycle of this Runnable instance.
      */
     @Override
     public void run() {

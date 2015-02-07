@@ -8,22 +8,35 @@ public abstract class Customer implements Runnable, Comparable {
 
     /**
      * Constructor for the class.
-     * @param customerName
+     *
+     * @param customerName The name of the instance, which acts as its identifier.
      */
     public Customer(final String customerName) {
         this.customerName = customerName;
     }
 
     /**
+     * A method that stringifies all held values of the instance.
+     *
+     * @return the string holding a human-readable text with all the fields and their respective values.
+     */
+    @Override
+    public String toString() {
+        return String.format("Customer{customerName='%s'}", customerName);
+    }
+
+    /**
      * Getter for the customerName field.
+     *
      * @return The value held by the customerName field.
      */
-    public String getCustomerName() {
+    public String getName() {
         return customerName;
     }
 
     /**
      * equals() override in order to make this class a value object.
+     *
      * @param o The object which the instance is to be compared against.
      * @return True if the comparing objects match in value, false otherwise.
      */
@@ -38,6 +51,7 @@ public abstract class Customer implements Runnable, Comparable {
 
     /**
      * hashCode() override to go with the equals() override.
+     *
      * @return The hashcode of the customerName field.
      */
     @Override
@@ -48,6 +62,7 @@ public abstract class Customer implements Runnable, Comparable {
     /**
      * compareTo method override in accordance with the Comparable interface.
      * Used in order to enable enqueuing of Customer instances.
+     *
      * @param o The instance to which this this instance is to be compared to, using the equals implementation.
      * @return -1, 0 or 1 if the comparing object is not equal, equal or greater than this instance, respectively.
      */

@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * View class representing user GUI/presentation layer.
  */
-public class View extends Observable implements Observer {
+public final class View extends Observable implements Observer {
     private final Map<LeaseCar, JTextArea> objectsTexts;
 
     /**
@@ -101,7 +101,7 @@ public class View extends Observable implements Observer {
         final StringBuilder builder = new StringBuilder();
         final LeaseCar car = (LeaseCar) arg;
         builder.append(car.getRegistrationNumber() + "\n");
-        builder.append("Leased by: " + (car.getLeasedBy() != null ? car.getLeasedBy().getCustomerName() : "") + "\n");
+        builder.append("Leased by: " + (car.getLeasedBy() != null ? car.getLeasedBy().getName() : "") + "\n");
         builder.append("Times leased: " + String.valueOf(car.getLeasedTimes()));
         carText.setText(builder.toString());
     }
