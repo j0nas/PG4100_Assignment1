@@ -1,13 +1,15 @@
 package no.wact.jenjon13.assignment1.leaser;
 
 import no.wact.jenjon13.assignment1.car.LeaseCar;
+import no.wact.jenjon13.assignment1.customer.CarCustomer;
 import no.wact.jenjon13.assignment1.customer.Customer;
-import no.wact.jenjon13.assignment1.customer.CustomerFactory;
 import org.junit.Test;
 
 import java.util.Optional;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class CarLeaserTest {
     @Test
@@ -22,14 +24,19 @@ public class CarLeaserTest {
     @Test
     public void testGetCars() throws Exception {
         final LeaseCar testCar = new LeaseCar("TEST");
-        CarLeaser.getInstance().getCars().forEach(car ->
-                assertTrue("All cars held by the CarLeaser instance should be valid and unique.",
-                        car instanceof LeaseCar && !car.equals(testCar)));
+
+        CarLeaser.getInstance().getCars().forEach(c -> {
+
+            final boolean condition = c instanceof LeaseCar && !c.equals(testCar);
+
+            assertTrue("All cars held by the CarLeaser instance should be valid and unique.",
+                    condition);
+        });
     }
 
     @Test
     public void testLeaseAndEndLease() throws Exception {
-        final Customer test = CustomerFactory.newCustomer("TEST");
+        final Customer test = new CarCustomer("TEST");// CustomerFactory.newCustomer("TEST");
         CarLeaser.getInstance().lease(test);
 
         final Optional<LeaseCar> carOptional = CarLeaser.getInstance()

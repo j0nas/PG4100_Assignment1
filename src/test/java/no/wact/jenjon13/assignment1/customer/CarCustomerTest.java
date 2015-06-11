@@ -6,8 +6,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CarCustomerTest {
-    Customer customer = null;
     private final String customerName = "TEST";
+    Customer customer = null;
 
     @Before
     public void setUp() throws Exception {
@@ -23,6 +23,6 @@ public class CarCustomerTest {
     @Test
     public void testToString() throws Exception {
         assertEquals("The toString method should return the expected value.",
-               "Customer{customerName='" + customerName + "'}", customer.toString());
+                "Customer{customerName='" + customerName + "'}", customer.toString());
     }
 }

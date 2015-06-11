@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e71e2990-9a4e-4f56-8b86-fb46bf3ab916" name="Default" comment="Removed .idea folder, added .gitignore">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\libraries\Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\libraries\Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\Assignment1.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\target\test-classes\no\wact\jenjon13\assignment1\car\CarFactoryTest.class" afterPath="" />
+      <change type="DELETED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\target\test-classes\no\wact\jenjon13\assignment1\car\LeaseCarTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/no/wact/jenjon13/assignment1/customer/CarCustomerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/no/wact/jenjon13/assignment1/customer/CarCustomerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/car/LeaseCar.class" afterPath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/car/LeaseCar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/gui/View$1.class" afterPath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/gui/View$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/gui/View$2.class" afterPath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/gui/View$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/gui/View.class" afterPath="$PROJECT_DIR$/target/classes/no/wact/jenjon13/assignment1/gui/View.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignment1.iml" afterPath="$PROJECT_DIR$/Assignment1.iml" />
+      <change type="MODIFICATION" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\java\no\wact\jenjon13\assignment1\car\CarFactory.java" afterPath="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/CarFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java" afterPath="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java" />
+      <change type="MODIFICATION" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\java\no\wact\jenjon13\assignment1\car\LeaseCar.java" afterPath="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java" afterPath="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\test\no\wact\jenjon13\assignment1\car\CarFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/carTest/CarFactoryTest.java" />
+      <change type="MOVED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\test\no\wact\jenjon13\assignment1\car\LeaseCarTest.java" afterPath="$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/carTest/LeaseCarTest.java" />
+      <change type="MOVED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\test\no\wact\jenjon13\assignment1\customer\CarCustomerTest.java" afterPath="$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/customer/CarCustomerTest.java" />
+      <change type="MOVED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\test\no\wact\jenjon13\assignment1\customer\CustomerFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/customer/CustomerFactoryTest.java" />
+      <change type="MOVED" beforePath="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\main\test\no\wact\jenjon13\assignment1\leaser\CarLeaserTest.java" afterPath="$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.java" />
     </list>
     <ignored path="Assignment1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,30 +49,105 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarLeaserTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.029259896">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="CarLeaser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48247078">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="CustomerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CustomerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarCustomer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CarCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeaseCar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/CarFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1750#1760#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,10 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/herpderp/ThreadThing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/mvc/view.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/mvc/View.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/mvc/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/mvc/Bakery.java" />
         <option value="$PROJECT_DIR$/src/main/java/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer.java" />
@@ -120,24 +194,28 @@
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/herpderp/JTextField.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/herpderp/JonasTextField.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/herpderp/KeyPressListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/CarFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/car/CarFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java" />
-        <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/car/LeaseCarTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CarCustomer.java" />
         <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/customer/CarCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CustomerFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/customer/CustomerFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java" />
-        <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Controller.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/car/LeaseCarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/CarFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/carTest/CarFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/carTest/LeaseCarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java" />
       </list>
     </option>
   </component>
@@ -161,8 +239,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -172,34 +252,76 @@
             <id />
           </State>
           <State>
-            <id>Assignment issues</id>
+            <id>Abstraction issuesJava</id>
           </State>
           <State>
-            <id>Class structure</id>
+            <id>Android Lint</id>
           </State>
           <State>
-            <id>Declaration redundancy</id>
+            <id>CSS</id>
           </State>
           <State>
-            <id>Java language level migration aids</id>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JRuby</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
           </State>
           <State>
             <id>Language Injection</id>
           </State>
           <State>
-            <id>Method metrics</id>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
           </State>
           <State>
             <id>Plugin DevKit</id>
           </State>
           <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
             <id>Scala: General</id>
-          </State>
-          <State>
-            <id>Serialization issues</id>
-          </State>
-          <State>
-            <id>Visibility issues</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -235,9 +357,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,6 +375,260 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leaser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leaser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PG4100_Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="car" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,6 +664,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -297,11 +676,16 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src\test\java" />
+      <recent name="F:\Google Drive\Code\PG4100\PG4100_Assignment1\src" />
       <recent name="F:\Google Drive\Code\PG4100\Assignment1\src\main" />
       <recent name="F:\Google Drive\Code\PG4100\Assignment1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="no.wact.jenjon13.assignment1.car" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="no.wact.jenjon13.assignment1.leaser" />
@@ -310,35 +694,7 @@
       <recent name="no.wact.jenjon13.assignment1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Controller">
-    <configuration default="false" name="CarLeaserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="no.wact.jenjon13.assignment1.leaser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Assignment1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="no.wact.jenjon13.assignment1.leaser" />
-      <option name="MAIN_CLASS_NAME" value="no.wact.jenjon13.assignment1.leaser.CarLeaserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Assignment1">
     <configuration default="false" name="CarLeaserTest.testGetCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -443,6 +799,27 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Assignment1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Assignment1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -682,6 +1059,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -719,6 +1102,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
@@ -736,19 +1125,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CarLeaserTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testGetCars" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLease" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLeaseAndEndLease" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Controller" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testGetCars" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLease" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLeaseAndEndLease" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Controller" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Assignment1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Controller" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLeaseAndEndLease" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLease" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testGetCars" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CarLeaserTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Assignment1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Controller" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLeaseAndEndLease" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testLease" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CarLeaserTest.testGetCars" />
       </list>
     </recent_temporary>
   </component>
@@ -777,6 +1166,7 @@
       <workItem from="1423135930542" duration="4402000" />
       <workItem from="1423168561817" duration="13233000" />
       <workItem from="1433964233255" duration="320000" />
+      <workItem from="1433968066167" duration="4450000" />
     </task>
     <task id="LOCAL-00001" summary="Progress..">
       <created>1422324781322</created>
@@ -830,41 +1220,71 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116372000" />
+    <option name="totallyTimeSpent" value="120822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33368757" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33437827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36363637" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40254238" sideWeight="0.499187" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19791667" sideWeight="0.499187" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19829424" sideWeight="0.500813" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33441558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32810867" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19791667" sideWeight="0.499187" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19829424" sideWeight="0.500813" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -910,25 +1330,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/CustomerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="7" selection-start-line="42" selection-start-column="4" selection-end-line="51" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
@@ -939,13 +1349,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
@@ -959,14 +1367,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/CarCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CarCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
@@ -981,7 +1389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/CarFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
@@ -992,9 +1400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,9 +1408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +1419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
@@ -1026,9 +1430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1058,9 +1460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1090,9 +1490,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
@@ -1118,7 +1516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/CarCustomer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CarCustomer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -1188,91 +1586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/CarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Car/LeaseCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94207835">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/CustomerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029616725">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Customer/CarCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22299652">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7560976">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/customer/CarCustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5212947">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/car/CarFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7103918">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/customer/CustomerFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1737649">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/car/LeaseCarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20272572">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9407666">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45655876">
-          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1281,21 +1594,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3326157">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/customer/CustomerFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/customer/CarCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/carTest/LeaseCarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/carTest/CarFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/leaser/CarLeaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/gui/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CustomerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/customer/CarCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/LeaseCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/wact/jenjon13/assignment1/car/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1750#1760#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48247078">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/no/wact/jenjon13/assignment1/leaser/CarLeaserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029259896">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

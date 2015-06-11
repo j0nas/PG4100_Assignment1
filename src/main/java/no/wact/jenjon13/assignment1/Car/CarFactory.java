@@ -44,7 +44,7 @@ public class CarFactory {
      *
      * @param amount Number of LeaseCar instances to create in the returned List
      * @return Returns a List<LeaseCar> containing the instantiated LeaseCars.
-     * @see no.wact.jenjon13.assignment1.car.CarFactory#newCar
+     * @see no.wact.jenjon13.assignment1.carTest.CarFactory#newCar
      */
     public static List<LeaseCar> newCars(int amount) {
         final List<LeaseCar> resultCars = new ArrayList<LeaseCar>(amount);

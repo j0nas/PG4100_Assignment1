@@ -1,5 +1,7 @@
-package no.wact.jenjon13.assignment1.car;
+package no.wact.jenjon13.assignment1.carTest;
 
+import no.wact.jenjon13.assignment1.car.CarFactory;
+import no.wact.jenjon13.assignment1.car.LeaseCar;
 import no.wact.jenjon13.assignment1.customer.Customer;
 import no.wact.jenjon13.assignment1.customer.CustomerFactory;
 import org.junit.Before;
@@ -8,8 +10,9 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
+
 /**
- * Test class for the LeaseCar class.
+ * Test class for the LeaseCar class.s
  */
 public class LeaseCarTest {
     private LeaseCar car;
@@ -65,7 +68,7 @@ public class LeaseCarTest {
 
     @Test
     public void testEquals() throws Exception {
-        final LeaseCar leaseCar = CarFactory.newCar();
+        final LeaseCar leaseCar = no.wact.jenjon13.assignment1.car.CarFactory.newCar();
         assertNotEquals("The previously instantiated LeaseCar instance should not be equal to a newly generated one.",
                 car, leaseCar);
 

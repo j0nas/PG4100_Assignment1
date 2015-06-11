@@ -9,8 +9,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.*;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * View class representing user GUI/presentation layer.

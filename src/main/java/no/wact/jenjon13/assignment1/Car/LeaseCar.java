@@ -14,6 +14,7 @@ public class LeaseCar {
 
     /**
      * Constructor for the class.
+     *
      * @param registrationNumber The identifier of the car, a String representing a license plate value.
      */
     public LeaseCar(final String registrationNumber) {
