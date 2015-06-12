@@ -4,13 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Factory for LeaseCar instances.
+ * Static factory for LeaseCar instances.
  */
 public class CarFactory {
     private static final String LICENSEPLATE_PREFIX = "RF";
     private static final int LICENSEPLATE_LENGTH = 5;
     private static final int LICENSEPLATE_INIT_NUM = 1;
     private static int carCount = LICENSEPLATE_INIT_NUM - 1;
+
+    /**
+     * Making the constructor private to mark this as a static class.
+     */
+    private CarFactory() {
+    }
 
     /**
      * Producer method for this factory.
@@ -24,7 +30,7 @@ public class CarFactory {
     }
 
     /**
-     * Generates a String containing [LICENSPLATE_LENGTH] characters.
+     * Generates a String containing {#LICENSEPLATE_LENGTH} characters.
      * The characters are duplicates of the String value of carCount.
      *
      * @return The generated licence plate as a String.
@@ -44,10 +50,10 @@ public class CarFactory {
      *
      * @param amount Number of LeaseCar instances to create in the returned List
      * @return Returns a List<LeaseCar> containing the instantiated LeaseCars.
-     * @see no.wact.jenjon13.assignment1.carTest.CarFactory#newCar
+     * @see no.wact.jenjon13.assignment1.car.CarFactory#newCar
      */
     public static List<LeaseCar> newCars(int amount) {
-        final List<LeaseCar> resultCars = new ArrayList<LeaseCar>(amount);
+        final List<LeaseCar> resultCars = new ArrayList<>(amount);
         for (int i = 0; i < amount; i++) {
             resultCars.add(newCar());
         }

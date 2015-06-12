@@ -8,6 +8,12 @@ public final class CustomerFactory {
     private static int customerCount = 0;
 
     /**
+     * Private constructor to mark this class as static.
+     */
+    private CustomerFactory() {
+    }
+
+    /**
      * Static method for returning a new Customer instance with the provided customerName set.
      *
      * @param customerName A name String that will function as the Customer instance's identifier

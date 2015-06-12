@@ -1,7 +1,5 @@
-package no.wact.jenjon13.assignment1.carTest;
+package no.wact.jenjon13.assignment1.car;
 
-import no.wact.jenjon13.assignment1.car.CarFactory;
-import no.wact.jenjon13.assignment1.car.LeaseCar;
 import no.wact.jenjon13.assignment1.customer.Customer;
 import no.wact.jenjon13.assignment1.customer.CustomerFactory;
 import org.junit.Before;

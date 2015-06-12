@@ -1,7 +1,5 @@
-package no.wact.jenjon13.assignment1.carTest;
+package no.wact.jenjon13.assignment1.car;
 
-import no.wact.jenjon13.assignment1.car.CarFactory;
-import no.wact.jenjon13.assignment1.car.LeaseCar;
 import org.junit.Test;
 
 import java.util.List;
